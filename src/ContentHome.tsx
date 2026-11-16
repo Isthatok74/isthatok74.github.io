@@ -29,7 +29,6 @@ const projects: ProjectData[] = [
     link: 'https://play.google.com/store/apps/details?id=com.myproj.chordchartgenerator',
     icon: '/chordlibrary-icon.png',
     linkText: 'Get it on Google Play',
-    hidden: true, // TODO: unhide once Chord Library is transferred to Free Gift Studio
   },
   {
     name: 'leagueportal.gg',
