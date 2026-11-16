@@ -18,6 +18,8 @@ them unchanged in `docs/` during a production build.
 - `public/CNAME` assigns the GitHub Pages site to `freegiftstudio.ca`.
 - `public/app-ads.txt` is the single authorized-sellers file shared by every app
   whose store listing uses this developer domain.
+- `public/robots.txt` explicitly allows Google's app-ads and related crawlers to
+  access the shared root files.
 
 Update `public/app-ads.txt` when an app needs another authorized seller or AdMob
 publisher account. Do not place app-specific copies at project paths such as
